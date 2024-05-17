@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US); // Instanciando a ferramenta Scanner
+        Scanner scanner = new Scanner(System.in); // Instanciando a ferramenta Scanner
 
         // Declarando as variáveis
         int numeroDaConta;
